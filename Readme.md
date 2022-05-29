@@ -4,6 +4,8 @@
 
 - Live Site URL: [https://saadmalik200.github.io/Grid-document-layout/](https://saadmalik200.github.io/Grid-document-layout/)
 
+## Challenge
+
 Using CSS Grid (and Flexbox if you like) recreate the reference image shown below -
 
 ![Desktop](./layout_images/desktop.png "desktop version")
