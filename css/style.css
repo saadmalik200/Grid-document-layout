@@ -154,6 +154,7 @@ section {
   height: 600px;
   gap: 5px;
   text-align: center;
+  text-shadow: 2px 2px 5px black;
   grid-template-areas:
     "col1 col2 col3"
     ". col4 col5"
@@ -161,7 +162,9 @@ section {
 }
 
 .section-container div {
-  line-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .col1 {
@@ -205,14 +208,17 @@ footer {
   row-gap: 20px;
   justify-content: right;
   text-align: center;
-  align-items: center;
+  align-content: center;
   padding: 20px 10%;
 }
 
 .box {
   border: 2px solid white;
+  box-shadow: 1px 1px 5px white;
   border-radius: 5px;
-  padding: 2.5rem 2.5rem;
+  display: flex;
+  align-items: center;
+  padding: 20px;
 }
 
 .box1 {
