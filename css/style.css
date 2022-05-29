@@ -51,8 +51,12 @@ nav {
 header ul {
   display: flex;
   list-style: none;
-  gap: 2rem;
+  gap: 3rem;
   margin-left: 1rem;
+}
+header a {
+  text-decoration: none;
+  color: black;
 }
 
 /**********/
